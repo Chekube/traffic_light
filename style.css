@@ -1,0 +1,91 @@
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+
+#div1 {
+    width: 85px;
+    height: 200px;
+    background-color: black;
+    border-radius: 15px 15px 0 0;
+    margin-left: 32px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 0 15px 15px;
+    
+}
+
+#div2 {
+    width: 30px;
+    height: 250px;
+    background-color: black;
+    margin-left: 60px;
+}
+
+#div3 {
+    width: 100px;
+    height: 110px;
+    background-color: black;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+
+#amber {
+    animation: first 7s infinite;
+}
+
+@keyframes first {
+    30% {
+        background-color: red;
+    }
+
+    60% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: black;
+    }
+}
+
+#yellow {
+    animation: second 7s infinite;
+}
+
+@keyframes second {
+    40% {
+        background-color: black;
+    }
+
+    60% {
+        background-color: rgb(230, 230, 4);
+    }
+
+    100% {
+        background-color: black;
+    }
+}
+
+#green {
+    animation: third 7s infinite;
+}
+
+@keyframes third {
+    30% {
+        background-color: black;
+    }
+
+    75% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: rgb(36, 241, 36);
+    }
+}
